@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0002CA82B7E64D41AAFA39BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA9C5FDAC0D407ABEFCCD8B /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1ACC4B2CA6E54CF5987A169A /* CDVPushApps.m in Sources */ = {isa = PBXBuildFile; fileRef = 348710AB1842426990CC7689 /* CDVPushApps.m */; };

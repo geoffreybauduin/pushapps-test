@@ -34,6 +34,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        alert("Registering device ...");
         PushNotification.registerDevice("", "4d20e307-9fcf-4cf1-bbb2-a871d03601c1",
             function (pushId) {
                 alert("PushNotification: registered:" + pushId);
